@@ -12,7 +12,7 @@ public class GenderPage extends PageBase{
     @FindBy(id = "gender")
     WebElement genderDropDown;
     @FindBy(xpath = "//li[@data-value='F']")
-    WebElement femaleSelection;
+    WebElement maleSelection;
     @FindBy(id = "input_birth_date")
     WebElement calenderDropDown;
     @FindBy(id = "acceptTC")
@@ -23,7 +23,7 @@ public class GenderPage extends PageBase{
     public void selectGender() throws InterruptedException {
         Thread.sleep(2000);
         clickOnWebElement(genderDropDown);
-        clickOnWebElement(femaleSelection);
+        clickOnWebElement(maleSelection);
     }
 
     public void selectBirthDate(String date)
