@@ -12,4 +12,4 @@ Feature: User Registration on Jumia
 
     Examples:
       | email                    | password          | firstName | lastName | phoneNumber | birthDate  |
-      | madonnaemad585@gmail.com | Madonna123456789* | Madonna   | Emad     | 01286547912 | 08-20-2001 |
+      | omarbaidak99@gmail.com | baidak123456789* | omar   | baidak     | 01144477035 | 08-03-2001 |
