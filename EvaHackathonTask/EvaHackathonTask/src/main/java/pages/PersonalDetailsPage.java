@@ -30,13 +30,7 @@ public class PersonalDetailsPage extends PageBase{
     {
         sendTextElement(lastNameTextBox,lastName);
     }
-//    public void selectCountryCode() {
-//        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//        wait.until(ExpectedConditions.elementToBeClickable(countryDropDown));
-//        clickOnWebElement(countryDropDown);
-//        //submit
-//        clickOnWebElement(countrySelection);
-//    }
+
     public void sendPhoneNumber(String phoneNumber)
     {
         sendTextElement(phoneNumberTextBox,phoneNumber);
