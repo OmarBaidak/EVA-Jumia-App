@@ -15,7 +15,7 @@ public class SignInPageTest extends TestBase{
     @DataProvider(name = "All")
     public Object[][] FirstNameProvider() {
         return new Object[][]{
-                { "madonnaemad602@gmail.com", "Madonna12345678*","Madonna", "Emad","01234567890", "08-20-2001"},
+                { "Omarbaidak99@gmail.com", "Baidak12345678*","Omar", "Baidak","01144477035", "08-03-2001"},
         };
     }
 
